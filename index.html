@@ -9,57 +9,11 @@
 </head>
 
 <body>
-	<div id="ToastBox"></div>
-	<div id="app" class="app">
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				background: #1e1e2a;
-			}
-
-			:where(.needsReloadWrapper) {
-				display: flex;
-				position: fixed;
-				width: 100%;
-				height: 100%;
-				padding-bottom: 6vh;
-				background: #1e1e2a;
-				justify-content: center;
-				align-items: center;
-				flex-direction: column;
-			}
-
-			:where(.needsReloadWrapper *) {
-				background: #1e1e2a;
-				color: white;
-				/* font-size: 2rem; */
-				font-weight: 500;
-				color: white;
-				font-family: "Segoe UI", sans-serif;
-			}
-
-			:where(.splashWrapper) {
-				display: none;
-			}
-
-			:where(.needsReloadText) {
-				position: absolute;
-				margin-top: 150px;
-			}
-
-			:where(.needsReloadLogo) {
-				width: 200px;
-				height: min-content;
-			}
-		</style>
-
-		<div class="needsReloadWrapper">
-			<h2 class="needsReloadText">Please reload the page</h2>
-		</div>
-
-	</div>
+	<style>
+		body {
+			background: red;
+		}
+	</style>
 </body>
 
 </html>
