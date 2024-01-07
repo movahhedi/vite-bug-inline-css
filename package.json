@@ -1,0 +1,11 @@
+{
+	"packageManager": "yarn@4.0.2",
+	"type": "module",
+	"scripts": {
+		"start": "vite",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"vite": "^5.0.11"
+	}
+}
